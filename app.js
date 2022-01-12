@@ -1,9 +1,9 @@
 const btnTranslate = document.querySelector("#btn-translate");
 const txtInput = document.querySelector("#txt-input");
 const outputDiv = document.querySelector("#output");
-let serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+// let serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
-// let serverURL = "https://api.funtranslations.com/translate/minion.json";
+let serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 const getTranslationURL = (text) => `${serverURL}?text=${text}`;
 
